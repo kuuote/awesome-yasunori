@@ -48,6 +48,7 @@ stdenv.mkDerivation (finalAttrs: {
       pnpmWorkspaces
       prePnpmInstall
       ;
+    fetcherVersion = 2;
     hash = "sha256-UW/9RKamXhdKnzlwUsdKfSu2+2U01uI18tgqAAxBbXk=";
   };
   patchPhase = ''
